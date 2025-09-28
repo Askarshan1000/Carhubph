@@ -1,0 +1,177 @@
+/* Reset and base styles */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #0d0d0d;
+  color: #ffffff;
+}
+
+/* Header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background-color: #111;
+  border-bottom: 1px solid #333;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #00ffff;
+}
+
+nav a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #ccc;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #00ffff;
+}
+
+/* Hero Section */
+.hero {
+  text-align: center;
+  padding: 60px 20px;
+  background: linear-gradient(to bottom, #0d0d0d, #1a1a1a);
+}
+
+.hero h1 {
+  font-size: 48px;
+  color: #00ffff;
+}
+
+.hero p {
+  font-size: 18px;
+  color: #aaa;
+  margin-bottom: 30px;
+}
+
+.search-bar {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.search-bar select,
+.search-bar button {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: #222;
+  color: #fff;
+}
+
+.search-bar button {
+  background-color: #00ffff;
+  color: #000;
+  cursor: pointer;
+}
+
+/* CTA Buttons */
+.cta-buttons button {
+  margin: 10px;
+  padding: 12px 20px;
+  background-color: #222;
+  color: #00ffff;
+  border: 1px solid #00ffff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.cta-buttons button:hover {
+  background-color: #00ffff;
+  color: #000;
+}
+
+/* Featured Listings */
+.featured-listings {
+  padding: 40px 20px;
+  background-color: #111;
+}
+
+.featured-listings h2 {
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 30px;
+  color: #00ffff;
+}
+
+.car-carousel {
+  display: flex;
+  gap: 20px;
+  overflow-x: auto;
+}
+
+/* Benefits Section */
+.benefits {
+  display: flex;
+  justify-content: space-around;
+  padding: 40px 20px;
+  background-color: #1a1a1a;
+}
+
+.benefit {
+  max-width: 200px;
+  text-align: center;
+}
+
+.benefit h3 {
+  color: #00ffff;
+  margin-bottom: 10px;
+}
+
+/* Booking & Contact */
+.booking,
+.contact {
+  padding: 40px 20px;
+  background-color: #111;
+}
+
+form input,
+form textarea,
+form button {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+  background-color: #222;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+}
+
+form button {
+  background-color: #00ffff;
+  color: #000;
+  cursor: pointer;
+}
+
+/* Chat Widget */
+.chat-widget {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+.chat-widget button {
+  background-color: #00ffff;
+  color: #000;
+  padding: 10px 15px;
+  border-radius: 50px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #0d0d0d;
+  color: #666;
+}
